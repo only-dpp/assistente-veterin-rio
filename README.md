@@ -1,2 +1,2 @@
-# assistente-veterin-rio
+# assistente-veterinário
 um site para marcar consultas com nome do animal, data e nome do veterinario, feito para meu portifólio
