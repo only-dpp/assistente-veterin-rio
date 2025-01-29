@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPetCare - Consultas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consultas Agendadas</h1>
+        <p style="text-align: center;">Seu assistente digital para cuidar de pets.</p>
+
+        
+        <div id="feedback-container">
+       
+        </div>
+
+        <div id="consultas">
+            <h2 style="text-align: center;">Próximas Consultas</h2>
+            <ul id="consulta-list">
+           
+            </ul>
+        </div>
+
+        <button id="add-consulta">Marcar Nova Consulta</button>
+
+        <div id="form-container" style="display:none;">
+            <h2>Agendar Consulta</h2>
+            <form id="consulta-form">
+                <label for="pet-name">Nome do Pet:</label>
+                <input type="text" id="pet-name" required><br>
+
+                <label for="date">Data:</label>
+                <input type="date" id="date" required><br>
+
+                <label for="vet">Veterinário:</label>
+                <input type="text" id="vet" required><br>
+
+                <button type="submit">Agendar</button>
+                <button type="button" id="cancel">Cancelar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
